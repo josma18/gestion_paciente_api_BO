@@ -1,0 +1,127 @@
+:root {
+  --azul-klinic: #0378d8;
+  --azul-claro: #e7f1fd;
+  --sombra: rgba(0, 0, 0, 0.1);
+  --fuente: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: var(--fuente);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Fondo video */
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* Contenedor login */
+.login-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+/* Caja del login */
+.login-box {
+  background: #ffffff;
+  padding: 15px 14px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px var(--sombra);
+  max-width: 360px;
+  width: 90%;
+  z-index: 1;
+
+
+  font-size: 0.95rem; /* Tamaño base del texto */
+  transform: scale(0.95); /* Reduce visualmente todo el panel */
+}
+
+/* Logo */
+.login-logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 60%;
+  object-fit: cover;
+  background-color: rgb(140, 187, 228);
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(1, 27, 49, 0.2);
+  margin-bottom: 16px;
+
+}
+
+/* Inputs flotantes */
+.form-control {
+  border-radius: 30px;
+  background-color: var(--azul-claro);
+  border: 1px solid #cfe2f3;
+  padding-left: 20px;
+  font-size: 0.95rem;
+}
+
+.form-control:focus {
+  border-color: var(--azul-klinic);
+  box-shadow: 0 0 0 0.25rem rgba(9, 65, 110, 0.25);
+}
+
+/* Botón */
+.btn-login {
+  background: linear-gradient(to right, #0076d7, #005bb5);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 30px;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.btn-login:hover {
+  background: linear-gradient(to right, #005bb5, #003f91);
+  transform: translateY(-1px);
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  padding-bottom: 10px 10px;
+  font-size: 0.8rem;
+  color: #6b4e4e;
+  z-index: 2;
+  text-align: center;
+}
+
+.forgot-password {
+  font-size: 0.85rem;
+  color: #615959;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  color: var(--azul-klinic);
+  text-decoration: underline;
+}
