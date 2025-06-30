@@ -47,9 +47,11 @@ Este proyecto es un panel administrativo web que permite gestionar *pacientes* y
 
 ---
 
-## 🖼️ VideoDemo del proyecto
+## 🎥 Video Demo del Proyecto
 
-> (En la parte de arriba implementamos el videoDemo del proyecto funcionando).
+Haz clic en el siguiente enlace para ver la demo en video:
+
+▶️ [Reproducir grabación del sistema](https://github.com/josma18/gestion_paciente_api_BO/blob/b4a58cf2d025f5b30e86f14154552a4ca220a3af/grabacion_grupo_05.mp4)
 
 ---
 
