@@ -42,6 +42,8 @@ Este proyecto es un panel administrativo web que permite gestionar *pacientes* y
 | *Anthony Pachas* | CRUD de médicos y pacientes               |
 | *Jordy Ramirez*  | Desarrollo del dashboard con datos reales  de Medicos y Pacientes|
 | *Jose Díaz*      | Diseño visual (UI/UX)                     |
+| *Roberth Leon*      | Diseño visual (UI/UX)                     |
+
 
 🧑‍🔧 *Todos los integrantes trabajamos en equipo*, nos reunimos por Meet y participamos tanto en la planificación como en la implementación técnica del proyecto. 💪
 
