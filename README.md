@@ -29,8 +29,8 @@ Este proyecto es un panel administrativo web que permite gestionar *pacientes* y
 2. Asegúrate de que el backend esté corriendo en:  
    http://localhost:3000
 4. Ingresa con el siguiente login:
-   - Usuario: DoctorDiaz
-   - Contraseña: bts123
+   - Usuario: lab01
+   - Contraseña: 123456
 
 ---
 
