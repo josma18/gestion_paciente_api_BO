@@ -30,7 +30,8 @@ Este proyecto es un panel administrativo web que permite gestionar *pacientes* y
    http://localhost:3000
 4. Ingresa con el siguiente login:
    - Usuario: lab01
-   - Contraseña: 123456
+   - Contraseña: lab123
+     
 
 ---
 
